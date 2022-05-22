@@ -392,7 +392,7 @@ function keyup() {
     
     
     
-    //온로드 동시에 사용가능
+       //온로드 동시에 사용가능
     window.onload = function() {
       gameStart();  minimapStart();
       scoreCanvas.width=300;
@@ -408,8 +408,8 @@ function keyup() {
     
     function scoredraw() {
       context3.drawImage(scorebackImg,0,0,300,300);
-      context3.drawImage(miniImg,125,240,50,50);
-      context3.fillText(score,150, 200);
+
+      context3.fillText(score,160, 220);
       
     }
     
