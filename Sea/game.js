@@ -172,7 +172,7 @@ function move() {
 }
 
 function draw() {
-  //context.clearRect(0,0,1000,600);
+  //context.clearRect(0,0,1000,600); 6360
   context.drawImage(backgroundImg, 0,bg_y,800,6360); // 배경 그리기
   if(bg_check){
     
