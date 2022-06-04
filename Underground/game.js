@@ -224,11 +224,14 @@ function Space(){
 
       if(Spacekey==-1){
         setTimeout(() => {
+          document.getElementById('alert1').style.display = 'none';
+          document.getElementById('alert2').style.display = 'block';
           Spacekey=0;   
         }, 500);
      
       }
       else if(Spacekey==1){
+        document.getElementById('alert2').style.display = 'none';
         setInterval(()=>dy=-5,200);
         Spacekey=2;
         
