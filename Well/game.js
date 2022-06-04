@@ -17,7 +17,7 @@ let context2;
 let miniImg=new Image();
 miniImg.src="../img/char_score1.png";
 let minibackImg=new Image();
-minibackImg.src="../img/space/map.png";
+minibackImg.src="../img/well/map.png";
 let scorebackImg=new Image();
 scorebackImg.src="../img/score_back.png";
 let clearImg=new Image();
@@ -32,7 +32,7 @@ let context3=document.getElementById("scoreCanvas").getContext("2d");
 
 let context;
 let backgroundImg=new Image();
-backgroundImg.src="../img/space/map.png"; //배경
+backgroundImg.src="../img/well/map.png"; //배경
 let charImg=new Image();
 let ObstacleImg=new Image();
 charImg.src="../img/well/char_ready.png";
