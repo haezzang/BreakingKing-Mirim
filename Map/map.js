@@ -26,10 +26,10 @@ sea.addEventListener("mouseout",()=>{
 
 //땅 속
 underground.addEventListener("mouseover",()=>{
-    underground.src="../img/map_underground_over.png";
+    underground.src="../img/underground/over.png";
 });
 underground.addEventListener("mouseout",()=>{
-    underground.src="../img/map_underground.png";
+    underground.src="../img/underground/choice.png";
 });
 
 
